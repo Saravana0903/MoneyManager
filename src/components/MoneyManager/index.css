@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.header-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  height: 20vh;
+  border-radius: 12px;
+}
+.bg-con {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form-div {
+  border: 1px solid lightslategrey;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+}
+.labelEle {
+  margin-bottom: 10px;
+}
+.inpEle {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.transaction-div {
+  border: 1px solid lightslategrey;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.list-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 4px;
+  list-style-type: none;
+}
+.list-tra-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+span {
+  color: rgb(80, 80, 204);
+  font-family: 'Roboto';
+  font-style: Italic;
+  font-weight: 600;
+  font-variant: inherit;
+  font-stretch: expanded;
+}

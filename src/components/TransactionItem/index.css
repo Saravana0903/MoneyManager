@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.list-tra-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  border: 1px solid lightslategrey;
+}
+.para1 {
+  padding-left: auto;
+  padding-right: auto;
+  width: 100px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-right: 1px solid lightslategrey;
+}
+.del-icon {
+  height: 20px;
+  width: 20px;
+}
+.del-btn {
+  background-color: transparent;
+  border: 0;
+}
